@@ -1,0 +1,10 @@
+name: physics-api
+description: $description
+prefix: PHYSICS
+version: '${version}'
+
+main: com.keremyurekli.physicsApi.PhysicsApi
+api-version: '26.2'
+load: POSTWORLD
+
+authors: [ keremyurekli ]
