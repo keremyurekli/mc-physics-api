@@ -37,17 +37,17 @@ public class Box3DBasicUtils {
                     );
 
                     entity.setPersistent(true);
-//                    entity.setViewRange(5000);
+                    entity.setViewRange(5000);
                     entity.setRotation(0, 0);
 
-                    entity.setViewRange(5.0f);
-                    entity.setDisplayWidth(200.0f);
-                    entity.setDisplayHeight(200.0f);
+//                    entity.setViewRange(5.0f);
+//                    entity.setDisplayWidth(200.0f);
+//                    entity.setDisplayHeight(200.0f);
                     entity.setShadowRadius(0.0f);
 
                     entity.setTransformation(
                             new Transformation(
-                                    new Vector3f((float) location.x(), (float) location.y(), (float) location.z()),
+                                    new Vector3f(0f, 0f, 0f),
                                     new AxisAngle4f(),
                                     new Vector3f(
                                             sizex,
@@ -69,9 +69,10 @@ public class Box3DBasicUtils {
                     entity.setItemStack(is);
                     entity.setPersistent(true);
                     entity.setRotation(0, 0);
-                    entity.setViewRange(5.0f);
-                    entity.setDisplayWidth(200.0f);
-                    entity.setDisplayHeight(200.0f);
+                    entity.setViewRange(5000);
+//                    entity.setViewRange(5.0f);
+//                    entity.setDisplayWidth(200.0f);
+//                    entity.setDisplayHeight(200.0f);
                     entity.setShadowRadius(0.0f);
                     entity.setItemDisplayTransform(ts);
                     entity.setTransformation(
